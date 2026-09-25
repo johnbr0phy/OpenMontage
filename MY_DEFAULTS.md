@@ -20,3 +20,8 @@
 - For any recurring character, build a reference sheet first and use reference-image
   video generation for every shot they appear in.
 - After each batch, check faces against the reference sheet and flag drift before moving on.
+
+## Secrets
+- Never write API keys or tokens to any file, log, commit, or chat message. Read them from environment variables only.
+- Before every commit, check the diff for anything that looks like a key. If found, stop and tell me.
+- Never commit .env.
