@@ -1,0 +1,26 @@
+{
+ "success": true,
+ "error": null,
+ "est_cost_live_usd": 3.08,
+ "data": {
+  "provider": "seedance",
+  "model": "bytedance/seedance-2.5/reference-to-video",
+  "prompt": "GLOBAL STYLE: Grounded, lived-in cinematic science fiction, year 2083. Shot on 35mm motion picture film: fine organic grain, gentle halation around practical lights, soft highlight roll-off, natural 180-degree shutter motion blur. Muted palette built on warm sodium-orange practical light against cold steel-blue ambient light. Photoreal, 16:9. No readable text, no logos, no music, no cartoon or CGI look.\n\nSCENE: Fifteen seconds in the life of Cass Varro, a tired long-haul freight pilot who is always talking his way out of something: his cockpit, the docking bay, a dockside bar.\n\nCHARACTERS: Exactly one recurring person, Cass Varro, a wholly original invented man, identical in every shot. Late 30s, lean, weathered sun-damaged skin with faint freckling and fine lines, three-day stubble going grey at the chin, short dark wavy hair with the left side of his head shaved close, a small round brushed-steel neural jack port set behind his left ear with a little scar tissue, tired hooded brown eyes, a crooked lopsided half-smile. His wardrobe is exactly as shown in @Image1: faded rust-orange flight jacket with dark patched elbows and a worn shoulder patch, grey thermal henley, leather utility belt with a battered rugged tablet and a coiled tether line, dark cargo trousers, scuffed boots.\n\nShot 1 (0-5s), COCKPIT: Cramped cockpit of an old freight hauler: wall of chunky toggle switches, taped-over analog gauges, flickering amber readouts, hanging cables, scratched canopy glass showing a cold blue planet limb and stars. Medium close-up, camera just in front of the console looking back at Cass in the worn pilot seat, face in three-quarter view. He flicks three toggle switches with his right hand, an amber readout stutters then holds, he glances back over his left shoulder into the dark cabin, then turns back and a small crooked smirk spreads across his face. Flickering amber console light from below sculpts his face, cold blue starlight rims his hair. Hard cut.\n\nShot 2 (5-10s), DOCKING BAY: Cavernous industrial docking bay at night, steel cargo ramp with hazard edging, drifting steam plumes, harsh sodium-orange floodlights on high gantries, cold blue work lights, stacked containers. Medium-wide becoming medium shot on a slow backward dolly at chest height: Cass walks down the cargo ramp toward camera through the steam, the battered tablet in his right hand, left index finger pressed to the comm at his left ear, jaw tight, muttering low into the comm and shaking his head once. His face stays clearly visible and in focus. Orange floodlight backlight makes the steam glow; cold blue bounce fills his face. Hard cut.\n\nShot 3 (10-15s), BAR: Cramped, smoky dockside bar: scratched steel counter, a glass of amber liquor, flickering cold-blue tube light behind the bar, warm orange pendant lamp above, mismatched bottles, background patrons only as blurred shapes with no visible faces. Medium close-up on a 29-degree portrait lens at counter height, shallow depth of field: Cass leans on the counter with both forearms, slides a small matte-black data chip across the steel toward someone just off-screen right with two fingers, holds their gaze, then raises one eyebrow with the faintest crooked half-smile. Warm pendant light rakes across his face, blue tube light rims the shaved side and the steel jack port.\n\nOPTICS / CAMERA: 47-degree normal lens in shots 1 and 2, 29-degree portrait lens in shot 3. Subtle handheld float, no lens drift within a shot.\n\nPHYSICS: Dust motes in the cockpit light, steam curling around his legs, jacket fabric creasing and swinging naturally, coiled tether swaying at the hip, smoke haze drifting in the bar, the chip sliding with slight friction and stopping cleanly.\n\nIDENTITY LOCK: the same face, hair, stubble, jack port and wardrobe in all three shots; no face morphing, no age change. COUNT LOCK: only Cass is ever in focus; no second face, no second hand, no reflection showing another person.\n\nAUDIO: Shot 1 toggle clicks, electrical hum, soft beeps. Shot 2 steam hiss, boots on steel, distant machinery, his voice only as a low muffled mutter with no discernible words. Shot 3 indistinct low crowd murmur, the scrape of the chip on steel. No music, no discernible dialogue.\n",
+  "operation": "reference_to_video",
+  "variant": "standard",
+  "model_version": "2.5",
+  "aspect_ratio": "16:9",
+  "resolution": "480p",
+  "generate_audio": true,
+  "seed": 1450315223,
+  "output": "projects/test/assets/video/cass_multishot_t1.mp4",
+  "output_path": "projects/test/assets/video/cass_multishot_t1.mp4",
+  "format": "mp4",
+  "file_size_bytes": 2130450,
+  "duration_seconds": 15.092971,
+  "file_size_mb": 2.03,
+  "video_width": 854,
+  "video_height": 480,
+  "video_codec": "h264"
+ }
+}

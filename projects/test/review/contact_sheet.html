@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cass Seedance Test</title><style>body{font:15px/1.5 system-ui;max-width:1100px;margin:auto;padding:16px;background:#111;color:#eee}table{border-collapse:collapse;width:100%}td{border:1px solid #444;padding:6px;vertical-align:top}tr:first-child td{font-weight:bold;background:#222}a{color:#f90}</style></head><body><h1>Cass Varro: Seedance 2.5 test</h1>
+
+<p><b>Final video:</b> <a href="../renders/final_web.mp4"><code>../renders/final_web.mp4</code></a> (15s, 1080p upscale, graded, ambient synth score, no narration)</p>
+
+<h2>Spend</h2>
+<table><tr><td>Item</td><td>Tool</td><td>Cost</td></tr>
+<tr><td>Reference sheet</td><td>seedream_image (Seedream v5, 2K)</td><td>$0.135</td></tr>
+<tr><td>2 rejected Seedance attempts (face filter)</td><td>seedance_video 2.5</td><td>~$0 (fal doesn&#x27;t normally bill rejected requests; this key can&#x27;t read billing to confirm)</td></tr>
+<tr><td>One 15s multi-shot clip, 3 hard cuts</td><td>seedance_video 2.5, reference-to-video, 480p</td><td>~$3.08</td></tr>
+<tr><td>Score</td><td>pixabay_music, &quot;leberch&quot; ambient synth (free, no attribution needed)</td><td>$0</td></tr>
+<tr><td><b>Total</b></td><td></td><td><b>~$3.22 of $5</b></td></tr>
+</table>
+<h2>How it was made</h2>
+<p>Seedance 2.5&#x27;s partner filter rejected the photoreal face references twice (<code>partner_validation_failed</code>, &quot;likenesses of real people&quot;).</p>
+<p>So the face came from a detailed <b>text description</b>, and the only reference image was the <b>face-free outfit plate</b>.</p>
+<p>All three scenes were made in <b>one 15s generation with hard cuts</b>, so the model carries the same person across shots.</p>
+
+<h2>Reference sheet</h2>
+<img src="frames/sheet_small.jpg" alt="sheet" style="max-width:100%">
+
+<h2>Face check: reference vs each shot</h2>
+<p>Left to right: reference (three-quarter), cockpit, docking bay, bar.</p>
+<img src="frames/face_compare.jpg" alt="faces" style="max-width:100%">
+
+<h2>Shots</h2>
+<img src="frames/strip.jpg" alt="shots" style="max-width:100%">
+
+<h2>Face consistency ratings (honest)</h2>
+<table><tr><td>Shot</td><td>vs reference sheet</td><td>vs the other shots</td><td>Notes on drift</td></tr>
+<tr><td>a. Cockpit (0-5.2s)</td><td><b>4/10</b></td><td><b>8/10</b> (baseline)</td><td>Same type of guy (shaved side, dark curly top, grey stubble, crooked smirk), but a different face from the sheet: older, narrower, lighter eyes. The jack port is a huge chrome disc, not the small port in the brief. Smirk lands well.</td></tr>
+<tr><td>b. Docking bay (5.2-9.8s)</td><td><b>3/10</b></td><td><b>5/10</b></td><td>Biggest drift. Hair is shorter and flatter, the face looks younger and leaner, and the jack port isn&#x27;t visible. The comm reads as holding a phone to his ear. Steam is lighter than asked for. Outfit and tablet are right.</td></tr>
+<tr><td>c. Bar (9.8-15s)</td><td><b>3/10</b></td><td><b>6/10</b></td><td>Hair and stubble match the cockpit, but the jaw is heavier and the skin redder and more lined, so he reads 5-10 years older. The chip slide and raised eyebrow both land. The contact&#x27;s hand enters frame-right (fine for the story, breaks the count lock).</td></tr>
+</table>
+<p><b>Outfit consistency: 8/10.</b> The jacket, patches, henley, belt, tablet and tether hold across all three shots.</p>
+
+<p><b>Verdict:</b> It looks cinematic and the brief&#x27;s actions all land. As a <b>character-consistency</b> test it fails against the reference sheet, because Seedance never saw his face.</p>
+<p>Within the one generation he stays recognisably the same guy, but drifts roughly 5-10 years in apparent age.</p>
+
+<h2>Next options</h2>
+<li>Use this Seedance face as the new canonical Cass: pull stills from the cockpit shot as his sheet, so future Seedance work matches itself (text plus the outfit plate).</li>
+<li>For locking to a designed face: MiniMax H3 or Gemini Omni accept face references (~$2-3 for 15s).</li>
+<li>Seedance with real face references needs ByteDance&#x27;s asset-ID authorization via Volcengine Ark (<code>seedance_ark</code>, needs <code>ARK_API_KEY</code>).</li>
+</body></html>
